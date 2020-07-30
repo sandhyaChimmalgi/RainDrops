@@ -29,7 +29,7 @@ function setup() {
 
 
 function draw() {
-  background(230, 230, 250);
+  background('black');
   Engine.update(engine);
   player.x = playerBody.position.x;
   player.y = playerBody.position.y;
